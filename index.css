@@ -3,9 +3,9 @@
     padding: 0;    
 }
 
-body {
+/* body {
     height: 100%;
-}
+} */
 
 
 /* --------------HEADER-------------- */
@@ -31,9 +31,8 @@ h1 {
 
 .hamb-menu {
     padding: 20px; 
-    justify-self: start; 
-  
-}
+    justify-self: start;   
+} 
 
 /* --------------MAIN-------------- */
 
@@ -43,7 +42,7 @@ h1 {
     background-color: #000000;
     padding: 5rem 0 14rem 0;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr);
     gap: 2%;
        
 }
@@ -193,7 +192,7 @@ button {
  
 .cartsection {
     display: grid; 
-    grid-template-columns: auto 10% 10% 10% 10% 10% 10% auto;
+    grid-template-columns: auto repeat(6, 10%) auto;
     gap: 2%;
 }
 
